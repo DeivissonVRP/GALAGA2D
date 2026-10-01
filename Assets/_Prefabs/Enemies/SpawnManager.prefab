@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3194530889151812312
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6535774455240449172}
+  - component: {fileID: 3925327373310896823}
+  m_Layer: 0
+  m_Name: SpawnManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6535774455240449172
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3194530889151812312}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3925327373310896823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3194530889151812312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc106b9486202654fb290884920313dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnManager
+  waves:
+  - waveName: Fase 1
+    enemyPrefabs:
+    - {fileID: 934089822192452429, guid: 96ee59800a8a8ae43bece8c2ecbe4e74, type: 3}
+    totalEnemiesToSpawn: 8
+    spawnInterval: 2
+  - waveName: Fase 2
+    enemyPrefabs:
+    - {fileID: 934089822192452429, guid: 96ee59800a8a8ae43bece8c2ecbe4e74, type: 3}
+    - {fileID: 1918205631728006152, guid: 72a3f815819df094fac3e506c9ef09f5, type: 3}
+    totalEnemiesToSpawn: 12
+    spawnInterval: 1.5
+  - waveName: Fase 3
+    enemyPrefabs:
+    - {fileID: 934089822192452429, guid: 96ee59800a8a8ae43bece8c2ecbe4e74, type: 3}
+    - {fileID: 1918205631728006152, guid: 72a3f815819df094fac3e506c9ef09f5, type: 3}
+    - {fileID: 4054805588914725515, guid: 94c9727bba15be748b59443be31d9a34, type: 3}
+    totalEnemiesToSpawn: 10
+    spawnInterval: 3
+  bossPrefab: {fileID: 136215332043225718, guid: 8386bcbc6d6cf184ab56f571afa37bd7, type: 3}
+  bossSpawnPoint: {fileID: 6356105229868782513, guid: 36937247bc3e9fc4d936733015cbefa6, type: 3}
+  xMin: -7
+  xMax: 7
+  spawnY: 6
