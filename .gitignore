@@ -1,0 +1,51 @@
+# ===== Unity =====
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]serSettings/
+/[Mm]emoryCaptures/
+/[Mm]emory_Captures/
+
+# ===== Arquivos gerados pelo Visual Studio / MonoDevelop / Rider =====
+/*.csproj
+/*.unityproj
+/*.sln
+/*.suo
+/*.tmp
+/*.user
+/*.userprefs
+/*.pidb
+/*.booproj
+/*.svd
+/*.pdb
+/*.mdb
+/*.opendb
+/*.VC.db
+
+# ===== Pastas de configuração de IDE =====
+.vs/
+.vscode/
+.idea/
+
+# ===== Arquivos de build / pacotes gerados =====
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# ===== Outros arquivos gerados automaticamente pelo Unity =====
+sysinfo.txt
+crashlytics-build.properties
+
+# ===== Arquivos de Sistema =====
+.DS_Store
+Thumbs.db
+
+# Cache de pacotes (opcional - descomente se não quiser versionar)
+# Packages/
+Galaga2DLimpo/
+
+Galaga2DLimpo/
